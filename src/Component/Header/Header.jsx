@@ -6,17 +6,7 @@ function Header() {
 	return (
 		<header className="Header-header">
 			<img src={logo} className="Header-logo" alt="logo" />
-			<p>
-				Edit <code>src/App.js</code> and save to reload.
-			</p>
-			<a
-				className="Header-link"
-				href="https://reactjs.org"
-				target="_blank"
-				rel="noopener noreferrer"
-			>
-				Learn React
-			</a>
+			<h1>React-router-dom project</h1>
 		</header>
 	);
 }
